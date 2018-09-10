@@ -7,8 +7,9 @@ fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111)
 
 points = []
-
-for i in range(5,20):
+Ttime=0
+for i in range(0,50):
+  start = time.time()
   Fib = 0
   temp = 0
   num = 1
@@ -21,8 +22,10 @@ for i in range(5,20):
     num2 = temp
     inp = inp-1
   Fib = num
+  end = time.time()
   print (str(Fib))
-  points.append(Fib)
+  Ttime = Ttime + (end-start)
+  points.append(Ttime)
 
 plt.plot(points)
 plt.show()
