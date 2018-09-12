@@ -32,5 +32,6 @@ public class Fibonacci {
             num2 = num3;
         }
         System.out.println("Resultado: " + num3);
+        System.out.println("Int = 93th para overflow");
     }
 }
