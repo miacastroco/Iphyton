@@ -27,7 +27,7 @@ for i in range(0,50):
   Ttime = Ttime + (end-start)
   points.append(Ttime)
   
-print ("Int = 93th para overflow")
+print ("Int = 93th para overflow, aunque se puede aumentar el limite por memoria")
 plt.plot(points)
 plt.show()
 ax.plot(points)
