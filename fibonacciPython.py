@@ -26,7 +26,8 @@ for i in range(0,50):
   print (str(Fib))
   Ttime = Ttime + (end-start)
   points.append(Ttime)
-
+  
+print "Int = 93th para overflow"
 plt.plot(points)
 plt.show()
 ax.plot(points)
