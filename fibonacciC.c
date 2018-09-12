@@ -18,9 +18,10 @@ int main()
     }
 
     printf("Resultado: %d", num3);
-    printf("short = 13th fibonacci para overflow")
-    printf("Int = 20th fibonacci para overflow")
+    printf("char = 13th fibonacci para overflow")
+    printf("short = 24th fibonacci para overflow")
+    printf("Int = 47th fibonacci para overflow")
     printf("long = 47th fibonacci para overflow")
-    printf("long long = 92th fibonacci para overflow")
+    printf("long long = 93th fibonacci para overflow")
     return 0;
 }
